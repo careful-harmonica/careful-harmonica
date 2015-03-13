@@ -30,28 +30,28 @@ app.config(function($stateProvider, $urlRouterProvider) {
       url: '/',
       views: {
         '': {
-          templateUrl: 'app/views/dashboard/dashboard.html',
+          templateUrl: 'app/dashboard/dashboard.html',
           controller: 'DashboardCtrl'
         },
         'tasks': {
-          templateUrl: 'app/views/dashboard/tasks.html',
-          controller: 'TaskCtrl'
+          templateUrl: 'app/dashboard/tasks.html',
+          controller: 'DashboardCtrl'
         },
         'score': {
-          templateUrl: 'app/views/dashboard/score.html',
-          controller: 'ScoreCtrl'
+          templateUrl: 'app/dashboard/score.html',
+          controller: 'DashboardCtrl'
         },
         'analytics': {
-          templateUrl: 'app/views/dashboard/analytics.html',
-          controller: 'AnalyticsCtrl'
+          templateUrl: 'app/dashboard/analytics.html',
+          controller: 'DashboardCtrl'
         },
         'achievements': {
-          templateUrl: 'app/views/dashboard/achievements.html',
-          controller: 'AchievementsCtrl'
+          templateUrl: 'app/dashboard/achievements.html',
+          controller: 'DashboardCtrl'
         },
         'social': {
-          templateUrl: 'app/views/dashboard/social.html',
-          controller: 'SocialCtrl'
+          templateUrl: 'app/dashboard/social.html',
+          controller: 'DashboardCtrl'
         }
       }
     })
@@ -61,7 +61,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
       url: '/profile',
       views: {
         '': {
-          templateUrl: 'app/views/profile/profile.html',
+          templateUrl: 'app/profile/profile.html',
           controller: 'ProfileCtrl'
         }
       }
@@ -72,7 +72,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
       url: '/job',
       views: {
         '': {
-          templateUrl: 'app/views/job/job.html',
+          templateUrl: 'app/job/job.html',
           controller: 'ProfileCtrl'
         }
       }
@@ -83,8 +83,8 @@ app.config(function($stateProvider, $urlRouterProvider) {
       url: '/signup',
       views: {
         '': {
-          templateUrl: 'app/views/auth/signup.html',
-          controller: 'SignupCtrl'
+          templateUrl: 'app/auth/signup.html',
+          controller: 'AuthCtrl'
         }
       }
     })
@@ -93,8 +93,8 @@ app.config(function($stateProvider, $urlRouterProvider) {
       url: '/signin',
       views: {
         '': {
-          templateUrl: 'app/views/auth/signin.html',
-          controller: 'SigninCtrl'
+          templateUrl: 'app/auth/signin.html',
+          controller: 'AuthCtrl'
         }
       }
     })
@@ -104,23 +104,23 @@ app.config(function($stateProvider, $urlRouterProvider) {
       url: '/onboard',
       views: {
         '': {
-          templateUrl: 'app/views/onboard/onboard.html',
+          templateUrl: 'app/onboard/onboard.html',
           controller: 'OnboardCtrl'
         },
         'dream': {
-          templateUrl: 'app/views/onboard/dream.html',
+          templateUrl: 'app/onboard/dream.html',
           controller: 'OnboardCtrl'
         },
         'upload': {
-          templateUrl: 'app/views/onboard/upload.html',
+          templateUrl: 'app/onboard/upload.html',
           controller: 'OnboardCtrl'
         },
         'goal': {
-          templateUrl: 'app/views/onboard/goal.html',
+          templateUrl: 'app/onboard/goal.html',
           controller: 'OnboardCtrl'
         },
         'install': {
-          templateUrl: 'app/views/onboardinstall.html',
+          templateUrl: 'app/onboardinstall.html',
           controller: 'OnboardCtrl'
         }
       }
