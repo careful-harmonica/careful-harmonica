@@ -22,27 +22,18 @@
         <div class="navbar-header">
           <a class="navbar-brand" href="#/">carefulHarmonica</a>
         </div>
-
-        <div class="collapse">
-
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#/">Home</a></li>
-            <li><a ng-href="#/">About</a></li>
-            <li><a ng-href="#/">Contact</a></li>
-          </ul>
-        </div>
       </nav>
     </header>
 
     <div class="container">
-    <div ng-include="'views/main.html'" ng-controller="MainCtrl"></div>
+      <div ui-view ng-controller="MainCtrl"></div>
     </div>
 
-    <div class="footer">
+    <!-- <div class="footer">
       <div class="container">
         <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
       </div>
-    </div>
+    </div> -->
 
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
@@ -71,8 +62,9 @@
     <!-- endbuild -->
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
+        <script src="app.js"></script>
+        <script src="main.js"></script>
+        <script src="dashboard/dashboard.js"></script>
         <!-- endbuild -->
 </body>
 </html>

@@ -15,7 +15,9 @@ var app = angular
     'ngResource',
     'ngSanitize',
     'ngTouch',
-    'ui.router'
+    'ui.router',
+
+    'app.dashboard'
   ]);
 
 // ********************** Route Definitions **********************
@@ -30,27 +32,27 @@ app.config(function($stateProvider, $urlRouterProvider) {
       url: '/',
       views: {
         '': {
-          templateUrl: 'app/dashboard/dashboard.html',
+          templateUrl: 'dashboard/dashboard.html',
           controller: 'DashboardCtrl'
         },
-        'tasks': {
-          templateUrl: 'app/dashboard/tasks.html',
+        'tasks@dashboard': {
+          templateUrl: 'dashboard/tasks.html',
           controller: 'DashboardCtrl'
         },
-        'score': {
-          templateUrl: 'app/dashboard/score.html',
+        'score@dashboard': {
+          templateUrl: 'dashboard/score.html',
           controller: 'DashboardCtrl'
         },
-        'analytics': {
-          templateUrl: 'app/dashboard/analytics.html',
+        'analytics@dashboard': {
+          templateUrl: 'dashboard/analytics.html',
           controller: 'DashboardCtrl'
         },
-        'achievements': {
-          templateUrl: 'app/dashboard/achievements.html',
+        'achievements@dashboard': {
+          templateUrl: 'dashboard/achievements.html',
           controller: 'DashboardCtrl'
         },
-        'social': {
-          templateUrl: 'app/dashboard/social.html',
+        'social@dashboard': {
+          templateUrl: 'dashboard/social.html',
           controller: 'DashboardCtrl'
         }
       }
@@ -61,7 +63,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
       url: '/profile',
       views: {
         '': {
-          templateUrl: 'app/profile/profile.html',
+          templateUrl: 'profile/profile.html',
           controller: 'ProfileCtrl'
         }
       }
@@ -72,8 +74,8 @@ app.config(function($stateProvider, $urlRouterProvider) {
       url: '/job',
       views: {
         '': {
-          templateUrl: 'app/job/job.html',
-          controller: 'ProfileCtrl'
+          templateUrl: 'employer/employer.html',
+          controller: 'EmployerCtrl'
         }
       }
     })
@@ -83,7 +85,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
       url: '/signup',
       views: {
         '': {
-          templateUrl: 'app/auth/signup.html',
+          templateUrl: 'auth/signup.html',
           controller: 'AuthCtrl'
         }
       }
@@ -93,7 +95,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
       url: '/signin',
       views: {
         '': {
-          templateUrl: 'app/auth/signin.html',
+          templateUrl: 'auth/signin.html',
           controller: 'AuthCtrl'
         }
       }
@@ -104,23 +106,23 @@ app.config(function($stateProvider, $urlRouterProvider) {
       url: '/onboard',
       views: {
         '': {
-          templateUrl: 'app/onboard/onboard.html',
+          templateUrl: 'onboard/onboard.html',
           controller: 'OnboardCtrl'
         },
         'dream': {
-          templateUrl: 'app/onboard/dream.html',
+          templateUrl: 'onboard/dream.html',
           controller: 'OnboardCtrl'
         },
         'upload': {
-          templateUrl: 'app/onboard/upload.html',
+          templateUrl: 'onboard/upload.html',
           controller: 'OnboardCtrl'
         },
         'goal': {
-          templateUrl: 'app/onboard/goal.html',
+          templateUrl: 'onboard/goal.html',
           controller: 'OnboardCtrl'
         },
         'install': {
-          templateUrl: 'app/onboard/install.html',
+          templateUrl: 'onboard/install.html',
           controller: 'OnboardCtrl'
         }
       }
