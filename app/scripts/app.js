@@ -21,7 +21,7 @@ var app = angular
 // ********************** Route Definitions **********************
 app.config(function($stateProvider, $urlRouterProvider) {
 
-  $urlRouterProvider.otherwise('/')
+  $urlRouterProvider.otherwise('/');
 
   $stateProvider
 
@@ -124,5 +124,5 @@ app.config(function($stateProvider, $urlRouterProvider) {
           controller: 'OnboardCtrl'
         }
       }
-    })
+    });
 });
