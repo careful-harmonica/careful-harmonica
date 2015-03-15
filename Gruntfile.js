@@ -198,7 +198,7 @@ module.exports = function (grunt) {
           }
       },
       sass: {
-        src: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
+        src: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'], // todo: update this so that bourbon works
         ignorePath: /(\.\.\/){1,2}bower_components\//
       }
     },

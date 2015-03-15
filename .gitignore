@@ -11,3 +11,7 @@ dist
 .sass-cache
 bower_components
 node_modules
+
+
+# SASS
+*.scssc
