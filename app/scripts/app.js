@@ -120,7 +120,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
           controller: 'OnboardCtrl'
         },
         'install': {
-          templateUrl: 'app/onboardinstall.html',
+          templateUrl: 'app/onboard/install.html',
           controller: 'OnboardCtrl'
         }
       }
