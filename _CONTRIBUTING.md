@@ -1,5 +1,15 @@
 # Contributing
 
+## Architecture 
+
+The app's folder structure is organized by functionality with views and controllers together. The dashboard is the main app state and uses multiple ui-router parallel views while the onboard section uses several nested views. The backend relies entirely on both the Firebase API (https://www.firebase.com/docs/web/api/) and Angularfire (https://www.firebase.com/docs/web/libraries/angular/api.html) which allows for "three-way" data-binding using $bindTo. Firebase queries are asynchronous and sometimes return promises (e.g., $loaded). Much of the binding to $scope for the dashboard.js appears in the factory.js through the checkAuth function.
+
+## Improvement ideas
+
+* The bookmarklet is incomplete
+* /friend/friend.html and commenting on activities is incomplete
+* /dashboard/analytics.html and visualizations is incomplete
+
 ## General Workflow
 
 1. Fork the repo
