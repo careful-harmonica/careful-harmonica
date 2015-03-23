@@ -309,10 +309,10 @@ module.exports = function (grunt) {
         ],
         patterns: {
           html: [
-            [/(\/images\/\w*\.svg)/, "Replacing svg files in md-svg-src"]
+            [/(\/images\/\w*\.svg)/, 'Replacing svg files in md-svg-src']
           ],
           css: [
-            [/(\/fonts\/\w*\.\w{3,4})/, "Replacing font files"]
+            [/(\/fonts\/\w*\.\w{3,4})/, 'Replacing font files']
           ]
         }
       }
@@ -515,5 +515,5 @@ module.exports = function (grunt) {
   grunt.registerTask('testClient', [
     'karma:unit'
   ]);
-  
+
 };
