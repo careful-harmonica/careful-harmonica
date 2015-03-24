@@ -456,6 +456,12 @@ module.exports = function (grunt) {
         configFile: 'test/karma.conf.js',
         singleRun: true
       }
+    },
+
+    casperjs: {
+      options: {
+      },
+      files: ['test/casper/casper.js']
     }
   });
 
@@ -513,7 +519,8 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('testClient', [
-    'karma:unit'
+    'karma:unit',
+    'casperjs'
   ]);
 
 };
