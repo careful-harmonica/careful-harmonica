@@ -11,7 +11,7 @@
       <th>Github Repos</th>
       <th>Score</th>
     </tr>
-    <tr ng-model="users" ng-repeat="user in users | orderBy: '-score'">
+    <tr ng-repeat="user in scores | orderBy: '-score'">
       <td>{{user.name}}</td>
       <td>{{user.rank}}</td>
       <td>{{user.repos}}</td>
