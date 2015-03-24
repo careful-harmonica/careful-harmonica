@@ -309,10 +309,10 @@ module.exports = function (grunt) {
         ],
         patterns: {
           html: [
-            [/(\/images\/\w*\.svg)/, 'Replacing svg files in md-svg-src']
+            [/(\/images\/\w*\.svg)/g, "Replacing svg files in md-svg-src"]
           ],
           css: [
-            [/(\/fonts\/\w*\.\w{3,4})/, 'Replacing font files']
+            [/(\/fonts\/\w*\.\w{3,4})/g, "Replacing font files in font-face"]
           ]
         }
       }
