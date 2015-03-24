@@ -2,35 +2,28 @@
 [![Stories in Ready](https://badge.waffle.io/careful-harmonica/careful-harmonica.png?label=ready&title=Ready)](https://waffle.io/careful-harmonica/careful-harmonica)
 
 [![Coverage Status](https://coveralls.io/repos/careful-harmonica/careful-harmonica/badge.svg)](https://coveralls.io/r/careful-harmonica/careful-harmonica)
-# Jobby Roger #
-  > Job hunting, but fun!
 
-## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+
+# Jobby Roger
+### Job hunting is a team sport.
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+Jobby Roger is a gamified social app for finding jobs.
 
 ## Problem ##
-  > Describe the problem your product solves.
+Job-searching is a solitary and at times unrewarding process. Further, it is often difficult to track your progress.
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+By integrating with products that job-seekers already use, we create a more enjoyable and interactive experience where users can track their job-seeking progress and receive the social support of like-minded peers.
 
-## Quote from You ##
-  > A quote from a spokesperson in your company.
+## Our People ##
+  >"Finding a new job should be fun. We're changing the tide for potential employees lost in a sea of anonymity" - One Of Our People
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+You can check out our page for a brief demo.
 
-## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+## Our Users ##
+  >"Jobby Roger is really fun." - One Of Our Users
 
-## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
-
-## Who we are
-	* Ryan Carey
-	* Tyler Julian
-	* Pavan Ravipati
-	* Ben Creasy
+## What Next? ##
+Head over to our page and log in via facebook or google+ to try finding a new job today!
