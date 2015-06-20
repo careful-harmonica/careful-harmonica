@@ -19,9 +19,9 @@
               if (isNew) {
                   var profile = authData.github;
                   var newUser = {
-                    name: profile.displayName,
-                    email: profile.email,
-                    repos: profile.cachedUserProfile.public_repos,
+                    name: profile.displayName ? profile.displayName : 'falsey',
+                    email: profile.email ? profile.email : 'falsey',
+                    repos: profile.cachedUserProfile.public_repos ? profile.cachedUserProfile.public_repos : 'falsey',
                     followers: profile.cachedUserProfile.followers,
                     signupDate: Firebase.ServerValue.TIMESTAMP,
                     lastLogin: Firebase.ServerValue.TIMESTAMP,
